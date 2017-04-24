@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+	<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="icon" href="./img/FaviconTrasp.ico">
+	<title>MadTimes</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+	
+	<link href="./css/carousel.css" rel="stylesheet">
+    <link href="./css/videos.css" rel="stylesheet">
+	<link href="./css/estiloPrincipal.css" rel="stylesheet">
+	<link href="./css/login.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<!-- <link href="./css/estilo.css" rel="stylesheet"> -->
+  </head>
+  <body>
+  
+		<header>
+			<section class="wrapper">
+				<nav>
+					<ul>
+						<li><a href="./index.html"><img class="logo" src="./img/FaviconTrasp.ico" alt="Logo de la web" ></a></li>
+						<li id="menu"><a href="#">Menu</a>
+							<ul>
+								<li>
+									<div class="col-md-8">
+										<div class="row">
+											<li><a href="./categoria.html">
+												<div class="col-md-2">
+													<img class="img-circle" src="./img/D-gotico.jpg" alt="Generic placeholder image" width="50" height="50">
+													<h2>Deportes</h2>
+												</div>
+											</a></li>
+											<li><a href="./categoria.html">
+												<div class="col-md-2">
+													<img class="img-circle" src="./img/E-gotico.png" alt="Generic placeholder image" width="50" height="50">
+													<h2>Educación</h2>
+												</div>
+											</a></li>
+											<li><a href="./categoria.html">
+												<div class="col-md-2">
+													<img class="img-circle" src="./img/C-gotico.png" alt="Generic placeholder image" width="50" height="50">
+													<h2>Cultura</h2>
+												</div>
+											</a></li>
+											<li><a href="./categoria.html">
+												<div class="col-md-2">
+													<img class="img-circle" src="./img/T_gotico.jpg" alt="Generic placeholder image" width="50" height="50">
+													<h2>Tecnología</h2>
+												</div>
+											</a></li>
+										</div>
+
+										<div class="row">
+											<li><a href="./categoria.html">
+												<div class="col-md-2">
+													<img class="img-circle" src="./img/E-gotico.png" alt="Generic placeholder image" width="50" height="50">
+													<h2>España</h2>
+												</div>
+											</a></li>
+											<li><a href="./categoria.html">
+												<div class="col-md-2">
+													<img class="img-circle" src="./img/S_gotico.jpg" alt="Generic placeholder image" width="50" height="50">
+													<h2>Sociedad</h2>
+												</div>
+											</a></li>
+											<li><a href="./categoria.html">
+												<div class="col-md-2">
+													<img class="img-circle" src="./img/P_gotico.jpg" alt="Generic placeholder image" width="50" height="50">
+													<h2>Política</h2>
+												</div>
+											</a></li>
+											<li><a href="./categoria.html">
+												<div class="col-md-2">
+													<img class="img-circle" src="./img/E-gotico.png" alt="Generic placeholder image" width="50" height="50">
+													<h2>Economía</h2>
+												</div>
+											</a></li>
+										</div>
+									</div>
+
+								</li>
+							</ul>
+						</li>
+							<li><a href="./inicioSesion.html">Iniciar Sesión</a><align = right></li>
+							<li><a href="#">Registrarse</a><align = right></li>
+				
+					</ul>
+				</nav>
+			</section>
+		</header>
+			<div class="row">
+				<div class="container.fluid">
+					<div class="imagenPrincipal">
+						<img class="img-responsive" src="./img/LogoAWTrasp.png" alt="Chania">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-5">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+							<div id="registrar">
+					
+							</div> <!-- fin opcion-->
+					 
+						<div id="envoltura">
+							<div id="contenedor">
+					 
+								<div id="cabecera" >
+									
+								</div>
+					 
+								<div id="cuerpo">
+									<form id="form-login" action="" method="post" autocomplete="off">
+										<!--A saber, el atributo for funciona como el id.-->
+										<!--ejemplo <label for="usuario">Usuario:</label>-->
+										<!--required es nuevo en html5, si el campo está vacío te avisa, pero cuidado, no valida la información-->
+										<p><label >Usuario:</label></p>
+											<input name="usuario" type="text" id="usuario" placeholder="Usuario" autofocus="" required=""></p>
+					 
+										<p><label>Contraseña:</label></p>
+											<input name="contrasenia" type="password" id="contrasenia" placeholder="Contraseña" required=""></p>
+					 
+										<p id="bot"><input type="submit" id="submit" name="submit" value="Iniciar sesión" class="boton"></p>
+									</form>
+								</div><!--fin cuerpo-->
+					 
+								<div id="pie">Sistema de Login y Registro</div>
+							</div><!-- fin contenedor -->
+						</div><!--fin envoltura-->
+										<!-- Left and right controls -->
+										
+					</div>
+				</div>
+				
+				<div class="col-md-5">
+				
+				</div>
+
+				
+			</div>
+	<center>
+		<p>Abril 2017 MadTimes-Noticias Todos los derechos reservados.</p>
+		<hr style="width:75%; border-color:black; ">
+		<a href="contacto.html">Términos y condiciones de uso</a>
+		  <a href="detalles.html">Política de privacidad</a>
+		  <a href="bocetos.html">Política de cookies</a>
+		  <a href="contacto.html">Contacto</a>
+		  <a href="">Ayuda</a>
+		  <a href="miembros.html">Nuestro equipo</a>
+		</center>
+	
+</div>
+
+</footer>
+	</div>
+			
+			
+		     
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
